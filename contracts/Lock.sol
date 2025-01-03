@@ -7,4 +7,8 @@ contract Lock {
     function hello() public pure returns (string memory) {
         return "Hello, World!";
     }
+
+    function sayYes() public pure returns (bool) {
+        return true;
+    }
 }
