@@ -6,4 +6,7 @@ contract Verify {
     function verify() public pure returns (bool) {
         return true;
     }
+    function show() public pure returns (string) {
+        return "ok";
+    }
 }
