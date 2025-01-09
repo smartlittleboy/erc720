@@ -11,4 +11,8 @@ contract Hello {
         console.log("Now, counter is: ", counter);
     } 
 
+    function timeCount() view external {
+        console.log(uint32(block.timestamp));
+    }
+
 }
